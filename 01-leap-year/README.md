@@ -15,23 +15,25 @@
 2. Label each as either correct or incorrect syntax. If incorrect, rewrite below:
   * if (x == y) {
 
-    * **YOUR WRITING HERE**
+    * Correct
 
   * if [x == 10] {
 
-    * **YOUR WRITING HERE**
+    * Incorrect, if ( x == 10) {
 
   * if x = 10 then {
 
-    * **YOUR WRITING HERE**
+    * Incorrect, 
+    if(x ==10){
+      DO STUFF
 
   * if (x equals 42) {
 
-    * **YOUR WRITING HERE**
+    * incorrect, if(x == 43)
 
   * if (x => y) {
 
-    * **YOUR WRITING HERE**
+    * if ( x >= y ){
 
 
 3. Fix the error in the code below:
@@ -45,4 +47,6 @@
   }
   ```
 
-  * **YOUR WRITING HERE**
+  * 
+  Line 45 is incorrect,
+  if ( next.equals("blue") != false ){
