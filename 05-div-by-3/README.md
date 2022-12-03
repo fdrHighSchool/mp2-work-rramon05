@@ -6,4 +6,4 @@ Outline an algorithm to determine whether or not a number is prime.
 Think of the following method header:
 `public static boolean isPrime(int num)`
 
-  * **YOUR WRITING HERE**
+  * create a list to hold the factors. and divide the number by a variable s. in a for loop increase s by one and if s >= 100 the loop stops and if the factor list holds only 2 numbers that it's a prime number else its not prime.
